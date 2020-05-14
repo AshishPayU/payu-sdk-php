@@ -10,10 +10,6 @@
         }
 
     ],
-    "autoload": {
-        "psr-4": {
-            "PayUClient": "."
-        }
-    },
+   
     "require": {}
 }
