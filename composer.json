@@ -11,9 +11,9 @@
 
     ],
     "autoload": {
-  "PayUClient" : ["payu/PayUClient.php"]
-},
-    
-   
+        "psr-4": {
+            "PayU": "payu-sdk-php/"
+        }
+    },
     "require": {}
 }
