@@ -1,6 +1,10 @@
 <?php
 
-include('base/payubase.php');
+namespace payu;
+include "payu/resources/hasher.php";
+include "payu/base/payubase.php";
+
+// namespace payu\PayUClient;
 /**
  * key & salt values are provided by your AM from PayU side
  */
@@ -12,9 +16,9 @@ class PayUClient
   {
     $this->key = $key;
     $this->salt = $salt;
-    $creds = base :: getInstance();
+     $creds = \base :: getInstance();
     $creds->set($key,$salt);
-    $Array_var = (array) $creds;
+     $Array_var = (array) $creds;
 
   }
 }
