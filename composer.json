@@ -1,5 +1,5 @@
 {
-    "name": "payu/payu_sdk",
+    "name": "payu/payu_sdk_php",
     "description": "Server side sdk to interact with PayU APIs",
     "type": "library",
     "license": "MIT",
