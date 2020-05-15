@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "payu\\": "src/"
+            "payu\\PayUClient\\": "src/"
         }
     },
     "require": {}
