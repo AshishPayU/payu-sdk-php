@@ -1,5 +1,5 @@
 {
-    "name": "ashish.kumar/payu",
+    "name": "payu/payu",
     "description": "Server side sdk to interact with PayU APIs",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "PayU": "payu-sdk-php/"
+            "payu\\": "src/"
         }
     },
     "require": {}
