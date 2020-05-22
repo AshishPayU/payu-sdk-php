@@ -56,8 +56,11 @@ function generate_hash($params)
 
 function validate_hash($params)
 {
+        global $key;
+        global $salt;
       // $firstname, $email can be "", i.e empty string if needed. Same should be sent to PayU server (in request params) also.
       $txnid = $params["txnid"];
+      $status = $params["status"];
       $amount = $params["amount"];
       $productinfo = $params["productinfo"];
       $firstname = $params["firstname"];
